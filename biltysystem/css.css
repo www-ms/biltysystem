@@ -1,0 +1,316 @@
+@font-face {
+    font-family: roboto;
+    src: url(RobotoR.ttf);
+}
+*{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+.section{
+    border: 1px solid black;
+}
+/* ======== section 1 ======== */
+.section1 {
+    text-align: center;
+}
+.section1 div{
+    padding: 2px;
+}
+label{
+    font-weight: bold;
+}
+span{
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    padding: 0 3px;
+}
+.section1 .name{
+    font-size: 25px;
+    color: brown;
+    font-weight: bold;
+}
+/* ======== section 2 ======== */
+.section2{
+    text-align: center;
+    display: flex;
+}
+.termsbox{
+    margin: 5px;
+    min-width: 180px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.termsbox .consignmentheader, .termsbox label{
+    font-weight: bold;
+}
+.termsbox .terms {
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.connobox, .condatebox{
+    display: flex;
+    justify-content: space-between;
+}
+.termsbox .consignmentnote{
+    border: 1px solid black;
+    padding: 5px;
+}
+.termsbox .noanddate{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.branch{
+    margin: 5px;
+    width: 500px;
+    border: 1px solid black;
+}
+.branch label{
+    font-weight: bold;
+}
+.branchpolicy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+.branchrisk, .branchmassege{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.branchcompanyname{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.branchfooter1{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.branchfooter2{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+}
+.left, .right{
+    display: flex;
+    justify-content: space-between;
+}
+.notice{
+    margin: 5px;
+    border: 1px solid black;
+    width: 600px;
+}
+.notice .box1{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+.notice p{
+    font-weight: bold;
+}
+.notice .box2{
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+}
+.truckandtax{
+    width: 500px;
+    padding: 5px;
+}
+.truckandtax label{
+    font-weight: bold;
+}
+.boxtruck1,.boxtruck2,.boxtruck3,.boxtruck4{
+    display: flex;
+    justify-content: space-between;
+}
+.taxbox2{
+    border: 1px solid black;
+}
+.taxbox1, .taxbox3{
+    display: flex;
+    justify-content: space-between;
+}
+.taxbox3{
+    margin-top: 5px;
+}
+/* ======== section 3 ======== */
+.section3{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.consignbox{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fromto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+}
+.from, .to, .at{
+    display: flex;
+    justify-content: space-between;
+}
+.consignernameaddress{
+    border-bottom: 1px solid #000;
+}
+.consigneebanknameaddress{
+    margin-top: 5px;
+}
+/* ======== section 4 ======== */
+table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    border: 1px solid black;
+}
+.nopackages, .modeofpackages{
+    width: 50px;
+    padding: 5px;
+}
+.rateperkg{
+    width: 150px;
+}
+.description{
+    width: 400px;
+}
+.weightandcharges{
+    width: 150px;
+    border-right: 2px solid black;
+}
+.kgs{
+    border-bottom: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+}
+.kgsbottom{
+    font-size: 14px;
+    display: flex;
+}
+.kgscharges{
+    border-left: 1px solid #000;
+    padding: 3px;
+}
+.freightbox{
+    width: 250px;
+}
+.freight{
+    border-bottom: 1px solid #000;
+}
+.freightbottombox{
+    display: flex;
+}
+.freightrs{
+    width: 100px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.freightp{
+    width: 50px;
+    border-left: 1px solid #000;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+.freightmode{
+    width: 100px;
+    border-left: 1px solid #000;
+    text-align: center;
+    font-size: 14px;
+}
+tbody td{
+    border-right: 1px solid #000;
+    padding: 3px 0;
+    text-align: center;
+}
+.td3{
+    width: 400px;
+}
+.td4{
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+.td41{
+    border-right: 1px solid black;
+    width: 59%;
+}
+.td42{
+    width: 40%;
+}
+.td5{
+    font-size: 12px;
+    text-align: right;
+}
+.td6{
+    display: flex;
+}
+.td61{
+    width: 100px;
+    border-right: solid black 1px;
+}
+.td62{
+    width: 50px;
+    border-right: solid black 1px;
+}
+.td63{
+    width: 100px;
+}
+table span{
+    padding: 0;
+    display: block;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+tr{
+    border-top: 2px solid #000;
+}
+#tr11 .td2{
+    border-right: 0px;
+}
+#tr11{
+    border-bottom: 2px solid #000;
+}
+#tr11 .td4{
+    border-right: none;
+}
+#done{
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(67, 67, 167);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* =========== print ================ */
+@media print {
+    span{
+        background-color: white;
+        border: none;
+    }
+    #done{
+        visibility: hidden;
+    }
+}
